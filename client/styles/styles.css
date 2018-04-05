@@ -1,0 +1,60 @@
+body {
+  background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent);
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+nav .nav-wrapper {
+  padding: 0 5rem;
+  background-color: #317d7d;
+}
+
+h3 {
+  text-align: center;
+  color: #fff;
+}
+
+.home-container {
+  display: grid;
+  justify-content: center;
+  margin-top: 20rem;
+  font-size: 2rem;
+}
+
+.dashboard-container {
+  display: grid;
+  justify-content: center;
+  margin-top: 20rem;
+  font-size: 2rem;
+}
+
+.errors {
+  color: red;
+}
+
+.btn {
+  display: grid;
+  margin: 0 auto;
+}
+
+.form {
+  border: 1px solid #478958;
+  padding: 3rem;
+  margin-top: 5rem;
+  background: #317d7d;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6);
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
